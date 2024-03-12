@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5e6d8; /* Marrón pastel */
+    text-align: center;
+}
+#profile-picture {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    display: block;
+}
+.social-links {
+    margin: 20px;
+}
+.social-links a {
+    display: inline-block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #7cb342; /* Verde suave */
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.social-links a img {
+    margin-left: 20px;
+    width: 50px;
+    height: 50px;
+}
+.social-links a:hover {
+    background-color: #5a8d28; /* Verde más oscuro al pasar el ratón */
+}
